@@ -1,0 +1,85 @@
+.link-page {
+    text-align: center;
+}
+
+.link1, .link2, .link3 {
+    display: block;
+    padding: 15px;
+    text-align: center;
+}
+
+.link1 {
+    background-color: lightgreen;
+}
+
+.link2 {
+    background-color: gray;
+}
+
+.link3 {
+    background-color: black;
+}
+
+.link1:link,
+.link2:link,
+.link3:link {
+    color: green;
+}
+
+.link1:visited{
+    color: red;
+}
+.link2:visited{
+    color: yellow;
+}
+.link3:visited {
+    color: white;
+}
+
+.link1:hover,
+.link2:hover,
+.link3:hover {
+    color: blue;
+}
+
+.link1:active,
+.link2:active,
+.link3:active {
+    color: white;
+}
+
+.format-title {
+    color: green;
+    background-color: beige;
+    padding: 10px;
+}
+
+.list-title {
+    color: white;
+    background-color: cadetblue;
+    padding: 10px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+.simple-table {
+    margin-bottom: 30px;
+}
+
+.complex-table img {
+    width: 200px;
+    height: auto;
+}
+.simple-table,
+.complex-table {
+    margin-left: auto;
+    margin-right: auto;
+}
